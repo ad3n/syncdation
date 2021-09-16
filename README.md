@@ -6,6 +6,7 @@
 - Jalankan `samples/sqls/todo_ddl.sql` di MySQL
 - Buat `syncdation-server` dan `syncdation-client` menjadi executable dengan `chmod a+x syncdation-server syncdation-client`
 - Jalankan terlebih dahulu `syncdation-server` kemudian `syncdation-client`
+- Update sesuai file `server.yml` dan `client.yml` kebutuhan
 
 ## Fitur Keseluruhan (Free + Premium)
 
