@@ -1,9 +1,13 @@
 client:
+  cert:
+    ca_cert: certs/ca-cert.pem
+    cert_file: certs/client-cert.pem
+    cert_key: certs/client-key.pem
   plugin_dir: plugins # Plugins directory
   files:
     atm:
       server: localhost:8181 # Server host
-      run_every: '* * * * * *' # Cron syntax support second
+      run_every: '* * * * *' # Cron syntax support second
       directory: samples/files # Directory to sync to server
       timeout: 60 # In minutes
   dbs:
@@ -17,5 +21,5 @@ client:
         password: aden
         dbname: todo
       sql: samples/sqls/todo.sql # SQL file or SQL Query
-      run_every: '* * * * * *' # Cron syntax support second
+      run_every: '* * * * *' # Cron syntax support second
       timeout: 60 # In minutes

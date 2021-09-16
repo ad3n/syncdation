@@ -1,4 +1,8 @@
 server:
+  cert:
+    ca_cert: certs/ca-cert.pem
+    cert_file: certs/server-cert.pem
+    cert_key: certs/server-key.pem
   plugin_dir: plugins # Plugins directory
   files:
     log_atm:
