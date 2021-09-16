@@ -1,23 +1,23 @@
 server:
-  plugin_dir: plugins
+  plugin_dir: plugins # Plugins directory
   files:
     log_atm:
-      port: 8181 
-      directory: samples/destinations
+      port: 8181 # Port to open
+      directory: samples/destinations # File store directory
       exist: rename
       timestamp: false
   dbs:
     main:
-      port: 8183
-      driver: mysql
+      port: 8183 # Port to open
+      driver: mysql # Database driver
       db:
         host: localhost
         port: 3306
         user: root
         password: aden
         dbname: todo
-      table: todo2
-      columns:
+      table: todo2 # Table name
+      columns: # Columns list
         - id
         - title
         - done 

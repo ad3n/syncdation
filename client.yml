@@ -1,21 +1,21 @@
 client:
-  plugin_dir: plugins
+  plugin_dir: plugins # Plugins directory
   files:
-    atm_indomaret_ciantra1:
-      server: localhost:8181
+    atm:
+      server: localhost:8181 # Server host
       run_every: '* * * * * *' # Cron syntax support second
-      directory: samples/files
-      timeout: 60
+      directory: samples/files # Directory to sync to server
+      timeout: 60 # In minutes
   dbs:
     warehouse:
-      server: localhost:8183
-      driver: mysql
+      server: localhost:8183 # Server host
+      driver: mysql # Database driver
       db:
         host: localhost
         port: 3306
         user: root
         password: aden
         dbname: todo
-      sql: samples/sqls/todo.sql
+      sql: samples/sqls/todo.sql # SQL file or SQL Query
       run_every: '* * * * * *' # Cron syntax support second
-      timeout: 60
+      timeout: 60 # In minutes
