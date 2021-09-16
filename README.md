@@ -29,9 +29,13 @@
     - [X] Log Parser Plugin
     - [X] Syslog
     - [X] Apache Access Log
+    - [X] Custom
   - [X] SQL Service
     - [X] Driver Plugin
     - [X] MySQL
+    - [X] MariaDB
     - [X] PostgreSQL
+    - [X] MS SQL Server
+    - [X] Oracle
     - [X] Csv
   - [X] SQL to Elasticsearch
