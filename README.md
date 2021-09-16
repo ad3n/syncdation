@@ -1,5 +1,16 @@
 # Syncdation
 
+Syncdation adalah sebuah aplikasi yang dapat digunakan untuk sinkronisasi data, migrasi database, centralize log dan masih banyak lagi.
+
+## Contoh Kasus yang dapat diselesaikan dengan Syncdation
+
+- Sinkronisasi/Tarik file dari kantor-kantor cabang ke kantor pusat atau sebaliknya
+- Kirim data log dari kantor-kantor cabang, atm, edc, dsb ke kantor pusat dan mengirimnya ke Elasticsearch untuk dianalisa
+- Migrasi database dari MySQL ke PostgreSQL, Oracle, MS SQL Server atau sebaliknya
+- Import data dari CSV ke Database
+- Kirim file besar (di atas 100GB) dari kantor cabang ke kantor pusat atau sebaliknya
+- Import data besar dari CSV ke Database
+
 ## Cara penggunaan
 
 - Buat database di MySQL `todo`
